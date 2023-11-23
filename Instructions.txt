@@ -1,0 +1,16 @@
+This project has several apps to provide different functionality to the system.
+
+1) WEB SCRAPER - A web scraper app is developed to extract information from any website.
+2) PASS/CAPTCHA BYPASS - For websites which have password and captcha for authorization. This app uses cookies and website data to authorize the code to access the website.
+3) TELEGRAM ALERTS - Alerts through telegram message or alarm can also be added according to the nature of scrapped data.
+
+How to use - 
+
+1)Open the code "marginScrapper" and edit things like alarm recipients, message recipients, timelapse between alarm and message, frequency of data extraction, extraction closing time etc.
+2) Now go to the website needed, enter credentials for autorization and captcha.
+3) Now navigate to the data that needs to be scrapped. Right click on it and choose inspect. Net developer tools would be opened.
+4) In network tab search for your json object. Refresh the page if u cant find the json object.
+5) copy it as curl. Now go to website curl converter. Pase the code there to convert it into python code. Copy that code
+6) Pase the code in margin scrapper file between the ##### ##### lines.
+7) After pasting the code and entering other input, the code will function according to the given input.
+8) The data scrapped will be stored in a different folder for independent access.
