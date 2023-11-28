@@ -12,7 +12,7 @@ alertRecipients = ['no1', 'no2', 'no3']
 # alertRecipients = ['number']
 telegramRecipients = ['id1', 'id2', 'id3']
 ###################### Raman ######## Ashish ###### Abhishek###
-# telegramRecipients = ['1111882666']
+# telegramRecipients = ['id']
 sendAlerts = True
 sleepTime = 60
 cooldownTime = 10*sleepTime # cooldown time for call/msg alerts if limit is reached # should be multiple of sleepTime
