@@ -36,7 +36,6 @@ headers = {
     'Cache-Control': 'no-cache',
     'Connection': 'keep-alive',
     'Content-Type': 'application/json',
-    # 'Cookie': 'bowfp=e00b00b3615c917ee30e3184f206e55b; srvt=m1UL0OkpMbM3MHdbfQVqB5ZFALQobMOnDofKbiwBhzNx-vZBKcAGgpXSpgaZDOJv',
     'Pragma': 'no-cache',
     'Sec-Fetch-Dest': 'empty',
     'Sec-Fetch-Mode': 'cors',
