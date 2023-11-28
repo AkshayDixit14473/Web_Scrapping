@@ -44,7 +44,7 @@ headers = {
     'sec-ch-ua': '"Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"',
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"Windows"',
-    'ufp': 'e00b00b3615c917ee30e3184f206e55b',
+    'ufp': 'serial no',
 }
 
 response = requests.get(
