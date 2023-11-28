@@ -2,8 +2,8 @@ import requests
 
 class telegramAlerts:
   def __init__(self) -> None:
-    self.TelegramBotCredential = '6495422079:AAGApwK7v0_QGJ-0E621jD1YyTTYHeckBSU'
-    self.randKey = "$9avZYt!B!"
+    self.TelegramBotCredential = 'bot credentials'
+    self.randKey = "key"
 
   def sendTelegramMsgAlert(self, recipient, msg = "This is a alert"):
     try:
