@@ -7,12 +7,12 @@ from twillioAlerts import twilioAlerts
 from sendTelegramMessage import telegramAlerts
 
 totalMarginUtilPctLimit = 80.0
-alertRecipients = ['+919057243109', '+919971434484', '+919716331649']
+alertRecipients = ['no1', 'no2', 'no3']
 ###################### Raman ######## Ashish ######### Abhishek###
-# alertRecipients = ['+919057243109']
-telegramRecipients = ['1111882666', '5659720225', '6676279881']
+# alertRecipients = ['number']
+telegramRecipients = ['id1', 'id2', 'id3']
 ###################### Raman ######## Ashish ###### Abhishek###
-# telegramRecipients = ['1111882666']
+# telegramRecipients = ['id']
 sendAlerts = True
 sleepTime = 60
 cooldownTime = 10*sleepTime # should be multiple of sleepTime
@@ -26,8 +26,8 @@ segment = 'FO'
 import requests
 
 cookies = {
-    'bowfp': 'e00b00b3615c917ee30e3184f206e55b',
-    'srvt': 'm1UL0OkpMbM3MHdbfQVqB5ZFALQobMOnDofKbiwBhzNx-vZBKcAGgpXSpgaZDOJv',
+    'bowfp': 'serial no',
+    'srvt': 'serial no',
 }
 
 headers = {
@@ -36,7 +36,6 @@ headers = {
     'Cache-Control': 'no-cache',
     'Connection': 'keep-alive',
     'Content-Type': 'application/json',
-    # 'Cookie': 'bowfp=e00b00b3615c917ee30e3184f206e55b; srvt=m1UL0OkpMbM3MHdbfQVqB5ZFALQobMOnDofKbiwBhzNx-vZBKcAGgpXSpgaZDOJv',
     'Pragma': 'no-cache',
     'Sec-Fetch-Dest': 'empty',
     'Sec-Fetch-Mode': 'cors',
